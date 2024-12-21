@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="bn">
-      <body className={notoSerifBengali.className}>
+      <body className={`${notoSerifBengali.className} bg-[#EDEDE9]`}>
         <AppRouterCacheProvider>
           <>
             {children}
