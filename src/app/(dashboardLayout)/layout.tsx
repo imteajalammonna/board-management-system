@@ -4,7 +4,9 @@ import Dashboard from "@/components/sections/dashboard/Dashboard";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <Dashboard>{children}</Dashboard>
+        <Dashboard>
+            {children}
+        </Dashboard>
     );
 };
 
