@@ -52,8 +52,8 @@ const InputSelectWrapperExtended = ({
                     }
                 >
                     {
-                        items?.map((name: any) => (
-                            <MenuItem key={name} value={name}>
+                        items?.map((name: any, idx: number) => (
+                            <MenuItem key={idx} value={name}>
                                 {name}
                             </MenuItem>
                         ))
